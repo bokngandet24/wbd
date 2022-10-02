@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: red;
+    font-weight: bold;
+}
+
+section {
+    margin: 7rem 0;
+}
+
+#intro .profile img {
+    width: 80%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.company {
+    font-weight: 600;
+    color: red;
+}
+
+#myID ul ui a{
+    font-weight: 600;
+    
+}
+
+.logo{
+    width: 30px;
+    height: 24px;
+}
+#intro .hello {
+    font-size: 1.5rem;
+}
+#intro .name h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#intro .name span {
+    color: red;
+}
+#intro .bio {
+    font-size: 1.1rem;
+    opacity: 70%;
+    /* margin-bottom: 3rem; */
+}
+#intro .bio b {
+    color: red;
+    opacity: 100%;
+    
+}
+#intro .contact {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#intro .contact span {
+    display: block;
+}
+#intro .contact span svg {
+    fill: red;
+}
+#intro .social {
+    margin-bottom: 2rem;
+}
+#intro .social ul {
+    display: inline-block;
+    padding:0;
+    list-style: none;
+}
+#intro .social ul li {
+    float: left;
+    margin:0px 5px;
+
+}
+#intro .social .facebook {
+    color: red;
+}
+#intro .social .twitter {
+    color: red;
+}
+#intro .social .linkedIn {
+    color: red;
+}
+#intro .social .telegram{
+    color: red;
+}
+
+#intro .social ul li :hover{
+    cursor: pointer;
+}
+#about {
+    text-align: right;
+}
+#about h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+#about p {
+    text-align: left;
+    font-size: 1.1rem;
+    opacity: 80%;
+    margin-bottom: 2.5rem;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-bold {
+    font-weight: 600;
+}
